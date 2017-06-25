@@ -1,5 +1,5 @@
 :host {
-	display:block;
+	display:inline;
 }
 
 .die {
@@ -11,7 +11,7 @@
 }
 
 .die svg {
-   width: 300px;
+   width: 100px;
 }
    
 .odd, .pair1, .pair2, .pair3 {

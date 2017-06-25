@@ -4,12 +4,6 @@ June 2017
 Study of the new Angular framework, doing things with dice
 
 ## Output ng version
-    _                      _                 ____ _     ___
-   / \   _ __   __ _ _   _| | __ _ _ __     / ___| |   |_ _|
-  / △ \ | '_ \ / _` | | | | |/ _` | '__|   | |   | |    | |
- / ___ \| | | | (_| | |_| | | (_| | |      | |___| |___ | |
-/_/   \_\_| |_|\__, |\__,_|_|\__,_|_|       \____|_____|___|
-               |___/
 @angular/cli: 1.1.2
 node: 6.11.0
 os: win32 x64
@@ -26,8 +20,12 @@ os: win32 x64
 @angular/compiler-cli: 4.2.4
 @angular/language-service: 4.2.4
 
-## V1
+## v1.0
 Show die. Click on it to roll.
+Features Parent (root) component, Child component (die), RandomNumber(service)
+
+## v2.0
+Command the die to roll from parent's template via local variable
 
 ## Options
 Let user determine maximium number of eyes on die (2-9)
