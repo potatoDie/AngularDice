@@ -5,11 +5,13 @@ import { AppComponent } from './app.component';
 import { DieComponent } from './die/die.component';
 
 import { RandomNumberService } from './random-number.service';
+import { VersionComponent } from './version/version.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DieComponent
+    DieComponent,
+    VersionComponent
   ],
   imports: [
     BrowserModule
