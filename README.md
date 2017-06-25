@@ -27,6 +27,9 @@ Features Parent (root) component, Child component (die), RandomNumber(service)
 ## v2.0
 Command the die to roll from parent's template via local variable
 
+##v3.0
+Give parent component access to properties and methods of child, using @ViewChild decorator
+
 ## Options
 Let user determine maximium number of eyes on die (2-9)
 

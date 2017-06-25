@@ -3,13 +3,12 @@
     {{title}}
   </h1>
   <h3>
-    Parent interacts with child via local variable
+    Parent interacts with child via @ViewChild
   </h3>
   <p>
-    <button class="btn btn-primary" (click)="die.roll()">Roll first die</button>
-    <button class="btn btn-primary" (click)="die2.roll()">Roll the other</button>
+    <button class="btn btn-primary" (click)="roll()">Roll!</button>
   </p>
-  <app-die #die></app-die>
-  <app-die #die2></app-die>
+  <app-die></app-die>
+  <p *ngIf="throws>0">That amounts to {{ total }}, over {{ throws }} throws.</p>
   <app-version [versionnr]="version"></app-version>
 </div>
