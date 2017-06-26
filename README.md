@@ -30,6 +30,9 @@ Command the die to roll from parent's template via local variable
 ##v3.0
 Give parent component access to properties and methods of child, using @ViewChild decorator
 
+##4.0
+User may chose max value for die (2-9). Show eyes on die 1-9.
+
 ## Options
 Let user determine maximium number of eyes on die (2-9)
 

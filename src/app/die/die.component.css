@@ -11,10 +11,10 @@
 }
 
 .die svg {
-   width: 100px;
+   width: 200px;
 }
    
-.odd, .pair1, .pair2, .pair3 {
+.odd, .pair1, .pair2, .pair3, .pair4 {
    display: none;
 }
 
@@ -24,4 +24,6 @@
 .eyes-4 .pair1, .eyes-4 .pair2  {display: inline;}
 .eyes-5 .odd, .eyes-5 .pair1, .eyes-5 .pair2  {display: inline;}
 .eyes-6 .pair1, .eyes-6 .pair2, .eyes-6 .pair3   {display: inline;}
-/*.eyes-7 .odd, .eyes-7 .pair1, .eyes-7 .pair2, .eyes-7 .pair3   {display: inline;}*/
+.eyes-7 .odd, .eyes-7 .pair1, .eyes-7 .pair2, .eyes-7 .pair3   {display: inline;}
+.eyes-8 .pair1, .eyes-8 .pair2, .eyes-8 .pair3, .eyes-8 .pair4 {display: inline;}
+.eyes-9 .odd, .eyes-9 .pair1, .eyes-9 .pair2, .eyes-9 .pair3, .eyes-9 .pair4   {display: inline;}

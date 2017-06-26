@@ -2,13 +2,17 @@
   <h1>
     {{title}}
   </h1>
-  <h3>
-    Parent interacts with child via @ViewChild
-  </h3>
   <p>
-    <button class="btn btn-primary" (click)="roll()">Roll!</button>
+    Maximum eyes that the die may show.
   </p>
-  <app-die></app-die>
+
+  <input #slider type="range" min="2" max="9" value="6" (input)="setMaxEyes(slider.value)" />
+  <input class="short" type="number" readonly value="{{slider.value}}"/>
+
+  <p>
+    <button class="btn btn-primary btn-lg" (click)="roll()">Roll!</button>
+  </p>
+  <app-die [maxValue]="6"></app-die>
   <p *ngIf="throws>0">That amounts to {{ total }}, over {{ throws }} throws.</p>
   <app-version [versionnr]="version"></app-version>
 </div>
