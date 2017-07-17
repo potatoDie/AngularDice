@@ -15,7 +15,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class VersionComponent implements OnInit {
   @Input()
-  versionnr : string;
+  versionnr: string;
 
   constructor() { }
 

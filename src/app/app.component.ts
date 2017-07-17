@@ -8,7 +8,7 @@ import { DieComponent } from './die/die.component';
 })
 export class AppComponent {
   title = 'Variable die';
-  version = "4.0";
+  version = '4.0';
   total = 0;
   throws = 0;
 
@@ -17,13 +17,13 @@ export class AppComponent {
   die: DieComponent;
 
   roll() {
-  	this.die.roll();
-  	this.total += this.die.value;
-  	this.throws++;
+    this.die.roll();
+    this.total += this.die.value;
+    this.throws++;
   }
 
   setMaxEyes(n: number) {
-  	// Still need to convert string to number
-  	this.die.maxValue = +n;
+    // Still need to convert string to number
+    this.die.maxValue = +n;
   }
 }

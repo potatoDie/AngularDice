@@ -1,7 +1,8 @@
 # Dice2
-
 June 2017
-Study of the new Angular framework, doing things with dice
+Study of the new Angular framework, using angular-cli, doing things with dice
+
+Demo: https://potatodie.github.io/AngularDice/
 
 ## Output ng version
 @angular/cli: 1.1.2
